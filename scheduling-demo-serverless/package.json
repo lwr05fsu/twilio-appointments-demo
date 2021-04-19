@@ -1,0 +1,17 @@
+{
+  "name": "scheduling-demo-serverless",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "twilio-run",
+    "deploy": "twilio-run deploy",
+    "start-local": "twilio serverless:start --port=4000 --ngrok=lrobinson"
+  },
+  "devDependencies": {
+    "twilio-run": "^2.0.0"
+  },
+  "engines": {
+    "node": "10.17.0"
+  }
+}
