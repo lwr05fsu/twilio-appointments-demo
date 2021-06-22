@@ -16,7 +16,7 @@ exports.handler = function (context, event, callback) {
     })
         .catch(e => {
             console.log(e)
-            response.setBody(JSON.stringify({status: 'No Appointment'}))
+            response.setBody(e)
             callback(null, response)
         })
 };

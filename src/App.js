@@ -5,6 +5,7 @@ import theme from './theme'
 import AppHeader from "./components/AppHeader";
 import './App.css';
 import Main from './components/Main'
+require('dotenv').config()
 
 function App() {
     return (

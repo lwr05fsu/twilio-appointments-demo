@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.7652e5a6.chunk.css",
-    "main.js": "/static/js/main.6c5ea4c0.chunk.js",
-    "main.js.map": "/static/js/main.6c5ea4c0.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3f26e18c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3f26e18c.js.map",
-    "static/js/2.051ca5a5.chunk.js": "/static/js/2.051ca5a5.chunk.js",
-    "static/js/2.051ca5a5.chunk.js.map": "/static/js/2.051ca5a5.chunk.js.map",
-    "static/js/3.1f447423.chunk.js": "/static/js/3.1f447423.chunk.js",
-    "static/js/3.1f447423.chunk.js.map": "/static/js/3.1f447423.chunk.js.map",
+    "main.js": "/static/js/main.327385cc.chunk.js",
+    "main.js.map": "/static/js/main.327385cc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b0f702d1.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b0f702d1.js.map",
+    "static/js/2.699aa34a.chunk.js": "/static/js/2.699aa34a.chunk.js",
+    "static/js/2.699aa34a.chunk.js.map": "/static/js/2.699aa34a.chunk.js.map",
+    "static/js/3.ad093149.chunk.js": "/static/js/3.ad093149.chunk.js",
+    "static/js/3.ad093149.chunk.js.map": "/static/js/3.ad093149.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.7652e5a6.chunk.css.map": "/static/css/main.7652e5a6.chunk.css.map",
-    "static/js/2.051ca5a5.chunk.js.LICENSE.txt": "/static/js/2.051ca5a5.chunk.js.LICENSE.txt",
+    "static/js/2.699aa34a.chunk.js.LICENSE.txt": "/static/js/2.699aa34a.chunk.js.LICENSE.txt",
     "static/media/twilio-logo.b2141cc7.png": "/static/media/twilio-logo.b2141cc7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.3f26e18c.js",
-    "static/js/2.051ca5a5.chunk.js",
+    "static/js/runtime-main.b0f702d1.js",
+    "static/js/2.699aa34a.chunk.js",
     "static/css/main.7652e5a6.chunk.css",
-    "static/js/main.6c5ea4c0.chunk.js"
+    "static/js/main.327385cc.chunk.js"
   ]
 }

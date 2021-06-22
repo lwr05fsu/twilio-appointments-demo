@@ -35,7 +35,7 @@ export default function AppointmentList() {
         let repeat;
 
         async function fetchAppointments() {
-            fetch('https://scheduling-demo-serverless-3570-dev.twil.io/fetch-appointments', {
+            fetch(`${process.env.REACT_APP_SERVERLESS_DOMAIN}/fetch-appointments`, {
                 method: 'POST',
                 headers: {
                     // 'Content-Type': 'application/json'
@@ -66,7 +66,7 @@ export default function AppointmentList() {
     const deleteAppointment = (sid) => {
         const params = new URLSearchParams({contactNumber: sid})
         console.log('delete sid', sid)
-        fetch('https://lrobinson.ngrok.io/delete-appointment', {
+        fetch(`${process.env.REACT_APP_SERVERLESS_DOMAIN}/delete-appointment`, {
             method: 'POST',
             body: params,
             headers: {

@@ -34,7 +34,7 @@ export default function OutboundSms() {
         const params = {contactNumber: phoneNumber.current.value}
         console.log(phoneNumber.current)
         console.log('params', params)
-        fetch('https://lrobinson.ngrok.io/start-flow', {
+        fetch(`/start-flow`, {
             method: 'POST',
             body: new URLSearchParams(params),
             headers: {
